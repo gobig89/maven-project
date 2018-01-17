@@ -15,6 +15,7 @@
 		<mule.version>3.9.0</mule.version>
 		<mule.tools.version>1.2</mule.tools.version>
 		<activemq.version>5.15.2</activemq.version>
+		<uid></uid>
 		<pwd></pwd>
 	</properties>
 
@@ -64,7 +65,7 @@
 			<configuration>
 				<deploymentType>cloudhub</deploymentType>
 				<muleVersion>${mule.version}</muleVersion>
-				<username>gobinath_gopalsamy2389</username>
+				<username>${uid}</username>
 				<password>${pwd}</password>
 				<workerType>Micro</workerType>
 				<redeploy>true</redeploy>
